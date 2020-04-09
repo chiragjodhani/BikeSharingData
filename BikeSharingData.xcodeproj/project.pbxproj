@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C24FAB9A243ED39800144026 /* SelectMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24FAB99243ED39800144026 /* SelectMonth.swift */; };
+		C24FAB9C243ED9EA00144026 /* SelectDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24FAB9B243ED9EA00144026 /* SelectDayView.swift */; };
+		C24FAB9E243EDEB800144026 /* MostFrequentTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24FAB9D243EDEB800144026 /* MostFrequentTimeVC.swift */; };
+		C24FABA0243EEA1300144026 /* MostPopularStationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24FAB9F243EEA1300144026 /* MostPopularStationsVC.swift */; };
+		C24FABA2243EEFB300144026 /* TotalAndAvgTripDurationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24FABA1243EEFB300144026 /* TotalAndAvgTripDurationVC.swift */; };
+		C24FABA4243EF17500144026 /* UsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24FABA3243EF17500144026 /* UsersVC.swift */; };
+		C279C9B5243DE619000C80F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C279C9B4243DE619000C80F9 /* AppDelegate.swift */; };
+		C279C9B7243DE619000C80F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C279C9B6243DE619000C80F9 /* SceneDelegate.swift */; };
+		C279C9B9243DE619000C80F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C279C9B8243DE619000C80F9 /* ContentView.swift */; };
+		C279C9BB243DE61C000C80F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C279C9BA243DE61C000C80F9 /* Assets.xcassets */; };
+		C279C9BE243DE61C000C80F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C279C9BD243DE61C000C80F9 /* Preview Assets.xcassets */; };
+		C279C9C1243DE61C000C80F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C279C9BF243DE61C000C80F9 /* LaunchScreen.storyboard */; };
+		C279C9C9243DF684000C80F9 /* SelectCityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C279C9C8243DF684000C80F9 /* SelectCityView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C24FAB99243ED39800144026 /* SelectMonth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMonth.swift; sourceTree = "<group>"; };
+		C24FAB9B243ED9EA00144026 /* SelectDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDayView.swift; sourceTree = "<group>"; };
+		C24FAB9D243EDEB800144026 /* MostFrequentTimeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostFrequentTimeVC.swift; sourceTree = "<group>"; };
+		C24FAB9F243EEA1300144026 /* MostPopularStationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostPopularStationsVC.swift; sourceTree = "<group>"; };
+		C24FABA1243EEFB300144026 /* TotalAndAvgTripDurationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalAndAvgTripDurationVC.swift; sourceTree = "<group>"; };
+		C24FABA3243EF17500144026 /* UsersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersVC.swift; sourceTree = "<group>"; };
+		C279C9B1243DE619000C80F9 /* BikeSharingData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeSharingData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C279C9B4243DE619000C80F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C279C9B6243DE619000C80F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C279C9B8243DE619000C80F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C279C9BA243DE61C000C80F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C279C9BD243DE61C000C80F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C279C9C0243DE61C000C80F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C279C9C2243DE61C000C80F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C279C9C8243DF684000C80F9 /* SelectCityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCityView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C279C9AE243DE619000C80F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C279C9A8243DE619000C80F9 = {
+			isa = PBXGroup;
+			children = (
+				C279C9B3243DE619000C80F9 /* BikeSharingData */,
+				C279C9B2243DE619000C80F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C279C9B2243DE619000C80F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C279C9B1243DE619000C80F9 /* BikeSharingData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C279C9B3243DE619000C80F9 /* BikeSharingData */ = {
+			isa = PBXGroup;
+			children = (
+				C279C9B4243DE619000C80F9 /* AppDelegate.swift */,
+				C279C9B6243DE619000C80F9 /* SceneDelegate.swift */,
+				C279C9B8243DE619000C80F9 /* ContentView.swift */,
+				C279C9C8243DF684000C80F9 /* SelectCityView.swift */,
+				C24FAB99243ED39800144026 /* SelectMonth.swift */,
+				C24FAB9B243ED9EA00144026 /* SelectDayView.swift */,
+				C24FAB9D243EDEB800144026 /* MostFrequentTimeVC.swift */,
+				C24FAB9F243EEA1300144026 /* MostPopularStationsVC.swift */,
+				C24FABA1243EEFB300144026 /* TotalAndAvgTripDurationVC.swift */,
+				C24FABA3243EF17500144026 /* UsersVC.swift */,
+				C279C9BA243DE61C000C80F9 /* Assets.xcassets */,
+				C279C9BF243DE61C000C80F9 /* LaunchScreen.storyboard */,
+				C279C9C2243DE61C000C80F9 /* Info.plist */,
+				C279C9BC243DE61C000C80F9 /* Preview Content */,
+			);
+			path = BikeSharingData;
+			sourceTree = "<group>";
+		};
+		C279C9BC243DE61C000C80F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C279C9BD243DE61C000C80F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C279C9B0243DE619000C80F9 /* BikeSharingData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C279C9C5243DE61C000C80F9 /* Build configuration list for PBXNativeTarget "BikeSharingData" */;
+			buildPhases = (
+				C279C9AD243DE619000C80F9 /* Sources */,
+				C279C9AE243DE619000C80F9 /* Frameworks */,
+				C279C9AF243DE619000C80F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BikeSharingData;
+			productName = BikeSharingData;
+			productReference = C279C9B1243DE619000C80F9 /* BikeSharingData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C279C9A9243DE619000C80F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Chirag's";
+				TargetAttributes = {
+					C279C9B0243DE619000C80F9 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C279C9AC243DE619000C80F9 /* Build configuration list for PBXProject "BikeSharingData" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C279C9A8243DE619000C80F9;
+			productRefGroup = C279C9B2243DE619000C80F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C279C9B0243DE619000C80F9 /* BikeSharingData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C279C9AF243DE619000C80F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C279C9C1243DE61C000C80F9 /* LaunchScreen.storyboard in Resources */,
+				C279C9BE243DE61C000C80F9 /* Preview Assets.xcassets in Resources */,
+				C279C9BB243DE61C000C80F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C279C9AD243DE619000C80F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24FAB9A243ED39800144026 /* SelectMonth.swift in Sources */,
+				C24FAB9C243ED9EA00144026 /* SelectDayView.swift in Sources */,
+				C24FABA2243EEFB300144026 /* TotalAndAvgTripDurationVC.swift in Sources */,
+				C24FABA0243EEA1300144026 /* MostPopularStationsVC.swift in Sources */,
+				C24FAB9E243EDEB800144026 /* MostFrequentTimeVC.swift in Sources */,
+				C24FABA4243EF17500144026 /* UsersVC.swift in Sources */,
+				C279C9B5243DE619000C80F9 /* AppDelegate.swift in Sources */,
+				C279C9B7243DE619000C80F9 /* SceneDelegate.swift in Sources */,
+				C279C9B9243DE619000C80F9 /* ContentView.swift in Sources */,
+				C279C9C9243DF684000C80F9 /* SelectCityView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C279C9BF243DE61C000C80F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C279C9C0243DE61C000C80F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C279C9C3243DE61C000C80F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C279C9C4243DE61C000C80F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C279C9C6243DE61C000C80F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BikeSharingData/Preview Content\"";
+				DEVELOPMENT_TEAM = 828G22CD6Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BikeSharingData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-00OkSolution.BikeSharingData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C279C9C7243DE61C000C80F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BikeSharingData/Preview Content\"";
+				DEVELOPMENT_TEAM = 828G22CD6Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BikeSharingData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-00OkSolution.BikeSharingData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C279C9AC243DE619000C80F9 /* Build configuration list for PBXProject "BikeSharingData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C279C9C3243DE61C000C80F9 /* Debug */,
+				C279C9C4243DE61C000C80F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C279C9C5243DE61C000C80F9 /* Build configuration list for PBXNativeTarget "BikeSharingData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C279C9C6243DE61C000C80F9 /* Debug */,
+				C279C9C7243DE61C000C80F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C279C9A9243DE619000C80F9 /* Project object */;
+}
