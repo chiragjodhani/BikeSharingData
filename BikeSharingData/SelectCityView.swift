@@ -30,12 +30,12 @@ struct SelectCityView: View {
                 }
                 Spacer()
                 VStack{
-                 Text("Would you like to see data for : ").font(.system(size: 28, weight: .medium, design: .default)).foregroundColor(.white).padding()
+                 Text("Would you like to see data for : ").font(.system(size: 21, weight: .medium, design: .default)).foregroundColor(.white).padding().multilineTextAlignment(.center)
                     Button(action: {
                         self.selectedCity = "NEW YORK"
                         print("NEW YORK")
                     }) {
-                        Text("NEW YORK").font(.system(size: 24, weight: .medium, design: .default))
+                        Text("NEW YORK").font(.system(size: 20, weight: .medium, design: .default))
                             .frame(width: UIScreen.main.bounds.width - 64, height: 50, alignment: .center)
                             .background(Color.black.opacity(0.4)).foregroundColor(.white).overlay(
                                 RoundedRectangle(cornerRadius: 5)
@@ -46,7 +46,7 @@ struct SelectCityView: View {
                         self.selectedCity = "CHICAGO"
                         print("CHICAGO")
                     }) {
-                        Text("CHICAGO").font(.system(size: 24, weight: .medium, design: .default))
+                        Text("CHICAGO").font(.system(size: 20, weight: .medium, design: .default))
                             .frame(width: UIScreen.main.bounds.width - 64, height: 50, alignment: .center)
                             .background(Color.black.opacity(0.4)).foregroundColor(.white).overlay(
                                 RoundedRectangle(cornerRadius: 5)
@@ -57,13 +57,13 @@ struct SelectCityView: View {
                         self.selectedCity = "WASHINGTON"
                         print("WASHINGTON")
                     }) {
-                        Text("WASHINGTON").font(.system(size: 24, weight: .medium, design: .default))
+                        Text("WASHINGTON").font(.system(size: 20, weight: .medium, design: .default))
                             .frame(width: UIScreen.main.bounds.width - 64, height: 50, alignment: .center)
                             .background(Color.black.opacity(0.4)).foregroundColor(.white).overlay(
                                 RoundedRectangle(cornerRadius: 5)
                                     .stroke(Color.white, lineWidth: 1.5)
                             )
-                    }
+                    }.padding()
                     
                 }
                 Spacer()
@@ -71,7 +71,7 @@ struct SelectCityView: View {
                     self.isActive = true
                     print("Selected City:- \(self.selectedCity)")
                 }) {
-                    Text("Next").font(.system(size: 24, weight: .medium, design: .default))
+                    Text("Next").font(.system(size: 20, weight: .medium, design: .default))
                         .frame(width: UIScreen.main.bounds.width - 64, height: 50, alignment: .center)
                         .background(Color.black.opacity(0.4)).foregroundColor(.white).overlay(
                             RoundedRectangle(cornerRadius: 5)
@@ -81,7 +81,7 @@ struct SelectCityView: View {
                 .sheet(isPresented: $isActive) {
                     SelectMonth()
                 }
-            }.padding(.bottom, 32)
+            }.padding(.bottom, 16)
         }.edgesIgnoringSafeArea(.all)
     }
 }

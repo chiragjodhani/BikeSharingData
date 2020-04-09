@@ -13,7 +13,7 @@ struct UsersVC: View {
        var body: some View {
            VStack{
                Image("InternetUsersIndia").resizable().aspectRatio(1.4, contentMode: .fit)
-               Text("Displays Statistics on Bikeshare Users").font(.system(size: 28, weight: .bold, design: .default)).foregroundColor(.black).multilineTextAlignment(.center).padding(.top, 64).padding(.leading, 12).padding(.trailing, 12)
+               Text("Displays Statistics on Bikeshare Users").font(.system(size: 28, weight: .bold, design: .default)).foregroundColor(.black).multilineTextAlignment(.center).padding(.top, 32).padding(.leading, 12).padding(.trailing, 12)
                Spacer()
                HStack{
                    VStack {
@@ -33,13 +33,13 @@ struct UsersVC: View {
                Button(action: {
                    self.presentationMode.wrappedValue.dismiss()
                }) {
-                   Text("Complete").font(.system(size: 24, weight: .medium, design: .default))
+                   Text("Complete").font(.system(size: 20, weight: .medium, design: .default))
                        .frame(width: UIScreen.main.bounds.width - 64, height: 50, alignment: .center)
                        .background(Color.black.opacity(0.4)).foregroundColor(.white).overlay(
                            RoundedRectangle(cornerRadius: 5)
                                .stroke(Color.black, lineWidth: 1.5)
                    )
-               }.padding(.bottom, 32)
+               }.padding(.bottom, 16)
            }.edgesIgnoringSafeArea(.all)
        }
 }

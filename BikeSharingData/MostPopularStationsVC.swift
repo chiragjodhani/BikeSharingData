@@ -13,7 +13,7 @@ struct MostPopularStationsVC: View {
    var body: some View {
         VStack{
             Image("popularStationBG").resizable().aspectRatio(1.4, contentMode: .fit)
-            Text("Displays Statistics on the Most Popular Stations and Trip").font(.system(size: 26, weight: .bold, design: .default)).foregroundColor(.black).multilineTextAlignment(.center).padding(.top, 64).padding(.leading, 12).padding(.trailing, 12)
+            Text("Displays Statistics on the Most Popular Stations and Trip").font(.system(size: 26, weight: .bold, design: .default)).foregroundColor(.black).multilineTextAlignment(.center).padding(.top, 32).padding(.leading, 12).padding(.trailing, 12)
             Spacer()
             VStack {
                 Text("Start/End Station : Streeter Dr & Grand Ave / Streeter Dr & Grand Ave").padding(.bottom, 12)
@@ -23,7 +23,7 @@ struct MostPopularStationsVC: View {
             Button(action: {
                 self.isActive = true
             }) {
-                Text("Next").font(.system(size: 24, weight: .medium, design: .default))
+                Text("Next").font(.system(size: 20, weight: .medium, design: .default))
                     .frame(width: UIScreen.main.bounds.width - 64, height: 50, alignment: .center)
                     .background(Color.black.opacity(0.4)).foregroundColor(.white).overlay(
                         RoundedRectangle(cornerRadius: 5)
@@ -31,7 +31,7 @@ struct MostPopularStationsVC: View {
                 )
             }.sheet(isPresented: $isActive) {
                TotalAndAvgTripDurationVC()
-            }.padding(.bottom, 32)
+            }.padding(.bottom, 16)
         }.edgesIgnoringSafeArea(.all)
     }
 }

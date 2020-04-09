@@ -20,7 +20,7 @@ struct ContentView: View {
                 Button(action: {
                     self.isActive = true
                 }) {
-                    Text("GET STARTED").font(.system(size: 24, weight: .medium, design: .default))
+                    Text("GET STARTED").font(.system(size: 20, weight: .medium, design: .default))
                         .frame(width: UIScreen.main.bounds.width - 64, height: 50, alignment: .center)
                         .background(Color.black.opacity(0.4)).foregroundColor(.white).overlay(
                             RoundedRectangle(cornerRadius: 8)
@@ -30,7 +30,7 @@ struct ContentView: View {
                 .sheet(isPresented: $isActive) {
                     SelectCityView()
                 }
-            }.padding(.bottom, 32)
+            }.padding(.bottom, 16)
         }.edgesIgnoringSafeArea(.all)
     }
 }

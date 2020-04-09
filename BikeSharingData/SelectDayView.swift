@@ -48,7 +48,7 @@ struct SelectDayView: View {
                     self.isActive = true
                        print("Selected Day:- \(self.dayArray[self.selectedDay])")
                    }) {
-                       Text("Next").font(.system(size: 24, weight: .medium, design: .default))
+                       Text("Next").font(.system(size: 20, weight: .medium, design: .default))
                            .frame(width: UIScreen.main.bounds.width - 64, height: 50, alignment: .center)
                            .background(Color.black.opacity(0.4)).foregroundColor(.white).overlay(
                                RoundedRectangle(cornerRadius: 5)
@@ -57,7 +57,7 @@ struct SelectDayView: View {
                    }.sheet(isPresented: $isActive) {
                        MostFrequentTimeVC()
                    }
-               }.padding(.bottom, 32)
+               }.padding(.bottom, 16)
            }.edgesIgnoringSafeArea(.all)
        }
 }
